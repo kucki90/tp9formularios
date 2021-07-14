@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/* paleta de colores */
+
+:root{
+    --color-amarillo : #eac926;
+    --color-azul : #03264C;
+    --color-Celeste: #1259c3;
+    --color-Grisoscuro: #666;
+    --color-Grisclaro: #ebebeb;
+    --color-Verde: #39b54a;
+}
+
+/* general // va a afectar a todo el documento */
+
+*{
+    font-family: 'Roboto', sans-serif; /* tipografía que se va a utilizar en el documento */
+    box-sizing: border-box; 
+}
+
+html{
+    font-size: 16px; /* tamaño de la tipografía */
+    font-family: sans-serif; /* tipografía */
+}
+
+body{
+    margin: 0; /* margen externo */
+    background-color: var(--color-Grisclaro); /* color de fondo del body */
+}
+
+img{
+    display: block; /*  */
+    width: 100%; /* ancho al 100% */
+    height: auto; /* el alto se va a ajustar dependiendo del ancho de la foto */
+}
+
+/* links */
+
+nav a{
+    text-decoration: inherit; /* hereda la decoración */
+    color: inherit; /* hereda el color */
+}

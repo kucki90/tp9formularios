@@ -1,0 +1,288 @@
+/* header */
+
+header{
+    padding: 15px; /* margen interno inferior del header */
+    background-color: var(--color-amarillo); /* color de fondo del header */
+}
+
+body .encabezado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* logo */
+
+body .encabezado img{
+    padding-right: 15px;
+    display: flex;
+    width: 40vw; /* ancho de la imagen del logo */
+}
+
+/* barra de búsqueda */
+
+.busqueda{
+    width: 50%;
+    height: 2rem;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.busqueda input{
+    height: 100%;
+    width: 100%;
+    padding-left: .5rem;
+    border: none;
+}
+
+.busqueda button{
+    width: 2rem;
+    height: 100%;
+    background-color: #FFF;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+body .encabezado form{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* frase "compra en cuotas" */
+
+.compra{
+    font-size: 12px; /* tamaño del la frase "compra" */
+    width: 100vw;
+    padding: 25px 0; /* margen interno inferior */
+    text-align: center;
+}
+
+/* categorías/usuario */
+
+.navegacion{
+    width: 100%;
+}
+
+.nav-mobile{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-mobile ul{
+    font-size: 12px; /* tamaño de la tipografía de las listas */
+    padding: 10px; /* margen interno superior e inferior */
+    display: flex;
+}
+
+.nav-mobile li{
+    margin-right: 20px;
+    list-style: none; /* quita decoración de la lista */
+}
+
+/* burger */
+
+.burger-menu{
+    margin: 0 auto; /* margen externo superior, laterales e inferior */
+    color: var(--color-Grisclaro); /* color del ícono */
+    background-color: var(--color-Celeste); /* color del fondo del ícono */
+    display: flex; /* hace flexible a la "caja" */
+    justify-content: center; /* centra al ícono verticalmente */
+    align-items: center;  /* centra al ícono horizontalmente */
+    width: 35px; /* ancho */
+    height: 35px; /* altura */
+    border-radius: 4px; /* redondeo de las esquinas de la caja del ícono */
+    font-size: 18px; /* tamaño del ícono */
+}
+
+/* main */
+
+main{
+    background-color: var(--color-Grisclaro); /* color de fondo del main */
+    padding-bottom: 5px; /* margen interno inferior */
+    margin-left: auto; /* margen izquierdo automático */
+    margin-right: auto; /* margen derecho automático */
+    text-align: center; /* alinea al texto en el centro */
+    width: 90vw; /* ancho del main relacionado con el viewport */
+}
+
+/* titulares */
+
+main .titulo{
+    font-family: 'Roboto', sans-serif; /* tipografía */
+    font-size: 24px; /* tamaño de la tipografía */
+    text-align: center; /* alineación del texto a la izquierda */
+    color: var(--color-Grisoscuro); /* color de la tipografía */
+    width: 100%;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+/* article */
+
+main .producto{
+    margin-bottom: 10px; /* margen inferior */
+    background-color: #FFF; /* color de fondo del texto que acompaña a los productos */
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* texto debajo de fotos */
+/* .productos .producto{
+    width: 90vw; /* ancho del viewport 
+} */
+.productos .producto .detalle{
+    width: 100%;
+    padding: 15px; /* margen interno */
+    border-top: solid 1px var(--color-Grisclaro); /* borde superior de la caja que aloja el texto que acompaña a los productos */
+    text-align: left; /* alinea al texto a la izquierda */
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* ícono camión */
+
+.producto .fa-truck{
+    color: var(--color-Verde); /* color del ícono */
+    font-size: 16px; /* tamaño del ícono */
+    padding: 5px; /* margen interno desde el borde hasta el ícono */
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--color-Verde); /* peso, tipo y color del borde */
+    background-color: #FFF;
+    border-radius: 50%; /* porcentaje para el redondeo del borde */
+    position: absolute;
+    right: 20px;
+    top: -15px;    
+    text-align: center; /* centrado del ícono */
+}
+
+/* precio */
+
+.producto .precio{
+    font-size: 18px; /* tamaño de la tipografía */
+    margin: 0 10px 0 0; /* margenes externos */
+    width: 30%;
+    min-width: min-content;
+}
+
+/* descuento */
+
+.producto .descuento{
+    color: var(--color-Verde); /* color de la tipografía */
+    font-size: 16px; /* tamaño de la tipografía */
+    margin: 0; /* margenes externos */
+    width: 70%;
+}
+
+/* descripción */
+
+.producto .descripcion{
+    font-size: 12px; /* tamaño de la tipografía */
+    color: var(--color-Grisoscuro); /* color de la tipografía */
+    font-weight: 100;
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+/* footer */
+
+footer{
+    background-color: white; /* color de fondo del footer */
+    color: var(--color-Grisoscuro); /* color del texto del footer */
+}
+
+footer section article{
+    text-align: center; /* alinea en el centro el texto */
+}
+
+/* íconos del footer */
+
+footer i{
+    font-size: 2em; /* tamaño de los íconos */
+    margin-top: 60px; /* margen externo superior */
+    margin-bottom: 10px; /* margen externo inferior */
+    color: var(--color-Celeste); /* color de loa íconos */
+}
+
+/* texto del footer */
+
+footer section article p, footer section article h3{
+    padding: 0 35px; /* margenes internos laterales */
+}
+
+footer section article h3{
+    font-size: 16px; /* tamaño de los titulares del footer */
+}
+
+footer section article {
+    font-size: 12px; /* tamaño de los cuerpos de texto del footer */
+}
+
+/* copyright */
+
+.copyright{
+    padding: 0 0 20px 15px; /* margenes internos derecho e inferior del copyright */
+    margin-top: 40px; /* margen externo superior del copyright */
+    font-size: 12px; /* tamaño de la tipografìa del copyright */
+    margin-bottom: 0px; 
+}
+
+@media (max-width: 360px){ /* hasta los 360px */
+
+    .producto .descripcion{
+        display: none; /* oculta la descripción de los artículos */
+    }
+
+/* barra de navegación */
+
+    .nav-mobile{
+        display: none; /* oculta la barra de navegación */
+    }
+}
+
+@media (min-width: 361px) { /* desde los 361px */
+    body .encabezado img{
+        width: 100%;
+    }
+    .prueba_img{
+        width: 33%; /* ancho de la imagen del logo */
+    } 
+
+    .busqueda{
+        width: 33%;
+    }
+
+    .compra{
+        width: 33%;
+    }
+    
+    .burger-menu{
+        display: none; /* oculta el menú hamburguesa */
+    }
+
+    .productos{
+        justify-content: space-between;
+    }
+
+    .productos .producto{
+        box-shadow: 0 0 10px rgb(100, 100, 100); /* sobra de los articles */
+        width: calc(50% - 8px);
+    }
+}
+
+@media (min-width: 768px) {
+    .productos .producto{
+        width: calc(25% - 8px);
+    }
+}
