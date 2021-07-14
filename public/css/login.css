@@ -1,3 +1,26 @@
 .info-login{
-background-color: red;
+    width: 100%;
+}
+
+.formulario-login form input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.info-login input{
+    width: 75%;
+}
+
+.info-login button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 75%;
+    background-color: var(--color-Celeste);
+    color: #FFF;
 }

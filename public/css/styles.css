@@ -1,3 +1,4 @@
 @import url('./general.css'); /* importa el archivo general.css */
 @import url('./home.css'); /* importa el archivo home.css */
 @import url('./register.css'); /* importa el archivo register.css */
+@import url('./login.css');

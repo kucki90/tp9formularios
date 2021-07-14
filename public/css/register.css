@@ -1,14 +1,14 @@
-.formulario{
+.formulario-register{
     width: 100%;
     text-align: left;
 }
 
-.formulario h4{
+.formulario-register h4{
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-.formulario form input {
+.formulario-register form input {
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 10px;
